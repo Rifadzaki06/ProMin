@@ -313,8 +313,8 @@ def main():
         2. Sidebar — input parameter interaktif dari pengguna
         3. Komputasi — hitung eksak, Taylor-2, Taylor-3, galat
         4. Metrik ringkasan — kartu statistik di atas grafik
-        5. Plot 1 — kurva tekanan vs kedalaman
-        6. Plot 2 — galat relatif (skala log)
+        5. Grafik 1 — kurva tekanan vs kedalaman
+        6. Grafik 2 — galat relatif (skala log)
         7. Tabel — DataFrame analisis galat pada kedalaman tertentu
     """
 
@@ -331,7 +331,7 @@ def main():
         🛢️ Aproksimasi Perilaku Fungsi Tekanan<br>dengan Polinom Taylor
     </h1>
     <p style='text-align:center; color:#94A3B8; font-size:14px;'>
-        Kalkulus Teknik Perminyakan &nbsp;|&nbsp; P(z) = P₀ e<sup>−αz</sup>
+        Fungsi Tekanan &nbsp;|&nbsp; P(z) = P₀ e<sup>−αz</sup>
     </p>
     <hr style='border-color:#334155;'>
     """, unsafe_allow_html=True)
