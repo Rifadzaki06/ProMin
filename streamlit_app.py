@@ -192,7 +192,7 @@ def plot_pressure(z: np.ndarray, exact: np.ndarray,
                   t2: np.ndarray, t3: np.ndarray,
                   a: float) -> plt.Figure:
     """
-    Plot 1 — Perbandingan Tekanan vs Kedalaman.
+    Grafik 1 — Perbandingan Tekanan vs Kedalaman.
 
     Menampilkan 3 kurva:
         • Solusi Eksak   (P0 * exp(-alpha*z))
@@ -249,7 +249,7 @@ def plot_pressure(z: np.ndarray, exact: np.ndarray,
 def plot_error(z: np.ndarray, e2: np.ndarray, e3: np.ndarray,
                a: float) -> plt.Figure:
     """
-    Plot 2 — Galat Relatif (%) vs Kedalaman dengan skala-Y logaritmik.
+    Grafik 2 — Galat Relatif (%) vs Kedalaman dengan skala-Y logaritmik.
 
     Skala logaritmik memperlihatkan perbedaan galat di rentang kedalaman
     dekat dan jauh dari titik ekspansi secara bersamaan.
@@ -320,7 +320,7 @@ def main():
 
     # ── Konfigurasi Halaman ────────────────────────────────────────────────
     st.set_page_config(
-        page_title="Aproksimasi Taylor — Teknik Perminyakan",
+        page_title="Aproksimasi Taylor",
         page_icon="🛢️",
         layout="wide",
     )
