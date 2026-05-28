@@ -385,9 +385,9 @@ def main():
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Eksak  P(a)",    f"{Pa_exact:,.2f} psi")
     c2.metric("Taylor Orde-2",  f"{Pa_t2:,.2f} psi",
-              delta=f"{Pa_t2 - Pa_exact:+.4f}")
+              #delta=f"{Pa_t2 - Pa_exact:+.4f}")
     c3.metric("Taylor Orde-3",  f"{Pa_t3:,.2f} psi",
-              delta=f"{Pa_t3 - Pa_exact:+.4f}")
+              #delta=f"{Pa_t3 - Pa_exact:+.4f}")
     c4.metric("α · a (tanpa dimensi)", f"{alpha * a:.4f}")
 
     st.markdown("<br>", unsafe_allow_html=True)
